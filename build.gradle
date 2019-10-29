@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'io.quarkus' version '0.26.1' 
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies { 
+    implementation enforcedPlatform('io.quarkus:quarkus-bom:0.26.1')
+    implementation 'io.quarkus:quarkus-resteasy'
+    
+    implementation group: 'org.slf4j', name: 'slf4j-ext', version: '1.7.25'
+}
+
+group = 'io.sitewhere'
+version = '2.2.0'
