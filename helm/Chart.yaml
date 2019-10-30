@@ -1,0 +1,10 @@
+apiVersion: v1
+name: sitewhere-graalvm
+version: 2.2.0
+tillerVersion: ">=2.7.2"
+description: Helm chart for deploying test GraalVM microservice
+keywords:
+  - sitewhere
+sources:
+  - https://github.com/sitewhere/sitewhere-graalvm
+icon: https://s3.amazonaws.com/sitewhere.org-web-media/tech-images/sitewhere-symbol.png

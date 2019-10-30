@@ -9,7 +9,10 @@ repositories {
 
 dependencies { 
     implementation enforcedPlatform('io.quarkus:quarkus-bom:0.26.1')
-    implementation 'io.quarkus:quarkus-resteasy'
+    implementation 'io.quarkus:quarkus-kubernetes-client'
+    
+    // SiteWhere Kubernetes model.
+	implementation group: 'com.sitewhere', name: 'sitewhere-k8s-model', version: '0.0.9'
     
     implementation group: 'org.slf4j', name: 'slf4j-ext', version: '1.7.25'
 }
